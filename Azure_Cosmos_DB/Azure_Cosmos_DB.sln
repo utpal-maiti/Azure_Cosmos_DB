@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Context", "AdventureWorks\AdventureWorks.Context\AdventureWorks.Context.csproj", "{E629713E-5DED-40D7-9888-9F79DAB31949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Models", "AdventureWorks\AdventureWorks.Models\AdventureWorks.Models.csproj", "{022F0D0E-E9B1-4064-A496-D53E39EB1666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Upload", "AdventureWorks\AdventureWorks.Upload\AdventureWorks.Upload.csproj", "{748F8157-F9EA-414D-BDF4-1C6E106E2302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Web", "AdventureWorks\AdventureWorks.Web\AdventureWorks.Web.csproj", "{1E56E077-B590-4D99-A773-BC12EFF07951}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{C0629432-2FC1-4FD4-81EE-07F0807FDA5E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Cosmos_DB", "..\", "{936E60D4-4E8A-4972-A3B6-DA2CEA113494}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52844"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Cosmos_DB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52844\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52844"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Cosmos_DB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52844\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52844"
+		SlnRelativePath = "..\..\Azure_Cosmos_DB\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E629713E-5DED-40D7-9888-9F79DAB31949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E629713E-5DED-40D7-9888-9F79DAB31949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E629713E-5DED-40D7-9888-9F79DAB31949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E629713E-5DED-40D7-9888-9F79DAB31949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F0D0E-E9B1-4064-A496-D53E39EB1666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F0D0E-E9B1-4064-A496-D53E39EB1666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F0D0E-E9B1-4064-A496-D53E39EB1666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F0D0E-E9B1-4064-A496-D53E39EB1666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748F8157-F9EA-414D-BDF4-1C6E106E2302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748F8157-F9EA-414D-BDF4-1C6E106E2302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748F8157-F9EA-414D-BDF4-1C6E106E2302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748F8157-F9EA-414D-BDF4-1C6E106E2302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E56E077-B590-4D99-A773-BC12EFF07951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E56E077-B590-4D99-A773-BC12EFF07951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E56E077-B590-4D99-A773-BC12EFF07951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E56E077-B590-4D99-A773-BC12EFF07951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936E60D4-4E8A-4972-A3B6-DA2CEA113494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936E60D4-4E8A-4972-A3B6-DA2CEA113494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936E60D4-4E8A-4972-A3B6-DA2CEA113494}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{936E60D4-4E8A-4972-A3B6-DA2CEA113494}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E629713E-5DED-40D7-9888-9F79DAB31949} = {C0629432-2FC1-4FD4-81EE-07F0807FDA5E}
+		{022F0D0E-E9B1-4064-A496-D53E39EB1666} = {C0629432-2FC1-4FD4-81EE-07F0807FDA5E}
+		{748F8157-F9EA-414D-BDF4-1C6E106E2302} = {C0629432-2FC1-4FD4-81EE-07F0807FDA5E}
+		{1E56E077-B590-4D99-A773-BC12EFF07951} = {C0629432-2FC1-4FD4-81EE-07F0807FDA5E}
+	EndGlobalSection
+EndGlobal
